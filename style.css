@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2? family= Ubuntu:wght@400;500 & display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: #161717;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 420px;
+}
+
+h1{
+    color: white;
+}
+
+.google-btn{
+    background-color: #1A73E8;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.google-btn:hover {
+    opacity: 0.8;
+}
+
+.google-btn picture{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img{
+    height: 75%;
+}
+
+.google-btn span{
+    padding: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.twitter-btn{
+    color: rgb(82, 82, 82);
+    background-color: rgb(204, 204, 204);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitter-btn:hover{
+    background-color: #aaa;
+}
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span{
+    color: #8b8b8b;
+}
+
+form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectios-inputs{
+    display: flex;
+    width: 100%;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span{
+    color: white;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+
+label input{
+    color: white;
+    width: 90%;
+    background-color: #212121;
+    border: none ;
+    outline: solid 1px #212121;
+    border-radius: 5px;
+    padding: 10px 16px;
+    margin-right: 8px;
+    transition: 0.2;
+}
+
+.sectios-inputs label input{
+    width: 80%;
+}
+
+label input:hover{
+    background-color: #454045;
+    box-shadow: 0 0 4px #8f39f1c2;
+}
+
+label input:focus{
+    background-color: #454045;
+    box-shadow: 0 0 4px #8f39f1d8;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    width: 15px;
+}
+
+.submit{
+    width: 100%;
+    color: white;
+    font-size: large;
+    background-color: #f529e4;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    opacity: 0.75;
+}
